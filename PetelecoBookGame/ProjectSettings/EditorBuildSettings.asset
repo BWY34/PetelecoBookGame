@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 98dbf5bbc27246743885733a64b26e84
+  - enabled: 1
+    path: Assets/Scenes/QRScanner.unity
+    guid: 3d6f116a58ae8fb4e8657d401c1842c4
+  - enabled: 1
+    path: Assets/Scenes/Audio.unity
+    guid: 5b5d5417c9eb00a4da5f392a28bbae72
+  - enabled: 1
+    path: Assets/Scenes/Roadmap.unity
+    guid: 0f9df68ace1fc1441a0b639958059caa
+  - enabled: 1
+    path: Assets/Scenes/Games/FindObjects.unity
+    guid: 632977779d6b8b14b981f1f8a6ac4e4a
+  - enabled: 1
+    path: Assets/Scenes/Games/FindShadows.unity
+    guid: 44cbc6a8a9ea7024abe0a567d5ce1d53
+  - enabled: 1
+    path: Assets/Scenes/Games/ConnectPoints.unity
+    guid: 3d7055042743c614393defb8ad6e2572
+  - enabled: 1
+    path: Assets/Scenes/Games/SeparateTrash.unity
+    guid: f28a14c6c6463614990c9146fa3aa8f5
+  - enabled: 1
+    path: Assets/Scenes/Games/MemoryGame.unity
+    guid: c193d1f21e4ff3146b48d75e0667991c
+  - enabled: 1
+    path: Assets/Scenes/Games/CardsGame.unity
+    guid: cdaf7b4ba3e0ae54a8e591e93a1f5ddf
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 50585b06e67e9d642b173e5e541a35a1, type: 2}
