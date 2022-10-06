@@ -286,9 +286,9 @@ public class CardsGame : MonoBehaviour
 
 		var cur = PlayerPrefs.GetInt(PlayerPrefsKeys.PlayerLevel);
 
-		if (cur < 16)
+		if (cur < 17)
 		{
-			PlayerPrefs.SetInt(PlayerPrefsKeys.PlayerLevel, 16);
+			PlayerPrefs.SetInt(PlayerPrefsKeys.PlayerLevel, 17);
 		}
 
 		IsGameRunning = false;

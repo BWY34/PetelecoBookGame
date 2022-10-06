@@ -25,11 +25,18 @@ public class Roadmap : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		SetupUICallbacks();
+
 		var currentLevel = PlayerPrefs.GetInt(PlayerPrefsKeys.PlayerLevel);
 
-		if (currentLevel < 1 || currentLevel > 16)
+		if (currentLevel < 1 || currentLevel > 17)
 		{
 			currentLevel = 1;
+		}
+
+		if (currentLevel == 17)
+		{
+			return;
 		}
 
 		{
@@ -37,19 +44,12 @@ public class Roadmap : MonoBehaviour
 			obj.GetComponent<Image>().color = new Color(1f, 1f, 0f, 1f);
 		}
 
-		if (currentLevel == 16)
-		{
-			return;
-		}
-
-		for (var i = currentLevel + 1; i <= 16; ++i)
+		for (var i = currentLevel + 1; i < 17; ++i)
 		{
 			var obj = GameObject.Find("Level" + i.ToString());
 			obj.GetComponent<Image>().color = new Color(0.58f, 0.58f, 0.58f, 1f);
 			obj.GetComponent<Button>().interactable = false;
 		}
-
-		SetupUICallbacks();
 	}
 
 	// Update is called once per frame

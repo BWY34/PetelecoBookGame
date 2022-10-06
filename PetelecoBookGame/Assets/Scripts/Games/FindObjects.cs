@@ -29,7 +29,7 @@ public class FindObjects : MonoBehaviour
     [SerializeField]
     private TMP_Text CountdownText;
 
-    private float Timer = 30.0f;
+    private float Timer = 45.0f;
 
     #region ConfigModal
 
@@ -181,7 +181,7 @@ public class FindObjects : MonoBehaviour
         EnableAllClickableObjects();
 
         // reset game variables
-        Timer = 30f;
+        Timer = 45f;
         FoundObjects = 0;
         HasGameEnded = false;
     }
@@ -295,12 +295,12 @@ public class FindObjects : MonoBehaviour
 			{
 				PlayerPrefs.SetInt(PlayerPrefsKeys.FindObjectsRecord, FoundObjects);
 				RecordText.text = "Novo Recorde!";
-				PointsText.text = "Pontuação: " + FoundObjects + "s";
+				PointsText.text = "Pontuação: " + FoundObjects;
 			}
             else
             {
 				RecordText.text = "Recorde: " + record.ToString();
-				PointsText.text = "Pontuação: " + FoundObjects + "s";
+				PointsText.text = "Pontuação: " + FoundObjects;
 			}
 
 			PlayBtnImage.sprite = RestartIconSprite;

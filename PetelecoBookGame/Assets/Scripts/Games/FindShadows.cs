@@ -29,7 +29,7 @@ public class FindShadows : MonoBehaviour
     [SerializeField]
     private TMP_Text CountdownText;
 
-    private float Timer = 30.0f;
+    private float Timer = 45.0f;
 
     #region ConfigModal
 
@@ -181,7 +181,7 @@ public class FindShadows : MonoBehaviour
         EnableAllClickableObjects();
 
         // reset game variables
-        Timer = 30f;
+        Timer = 45f;
         FoundObjects = 0;
         HasGameEnded = false;
     }

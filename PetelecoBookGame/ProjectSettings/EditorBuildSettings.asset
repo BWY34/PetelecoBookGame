@@ -39,4 +39,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Games/CardsGame.unity
     guid: cdaf7b4ba3e0ae54a8e591e93a1f5ddf
   m_configObjects:
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 50585b06e67e9d642b173e5e541a35a1, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 18e97121df0df3d46af53eb9c69296bd, type: 2}
