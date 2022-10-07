@@ -378,7 +378,7 @@ public class AudioViewer : MonoBehaviour
 			case 1:
 				Source.clip = CortesyClip;
 				Subtitle = Cortesy;
-				TitleField.text = "Virtude do Cortesia";
+				TitleField.text = "Virtude da Cortesia";
 				UpdateLevel(4);
 				break;
 			case 2:
@@ -390,31 +390,31 @@ public class AudioViewer : MonoBehaviour
 			case 3:
 				Source.clip = PersistenceClip;
 				Subtitle = Persistence;
-				TitleField.text = "Virtude do Persistência";
+				TitleField.text = "Virtude da Persistência";
 				UpdateLevel(9);
 				break;
 			case 4:
 				Source.clip = PatienceClip;
 				Subtitle = Patience;
-				TitleField.text = "Virtude do Paciência";
+				TitleField.text = "Virtude da Paciência";
 				UpdateLevel(10);
 				break;
 			case 5:
 				Source.clip = EmpatyClip;
 				Subtitle = Empaty;
-				TitleField.text = "Virtude do Empatia";
+				TitleField.text = "Virtude da Empatia";
 				UpdateLevel(12);
 				break;
 			case 6:
 				Source.clip = HonestyClip;
 				Subtitle = Honesty;
-				TitleField.text = "Virtude do Honestidade";
+				TitleField.text = "Virtude da Honestidade";
 				UpdateLevel(13);
 				break;
 			case 7:
 				Source.clip = DisciplineClip;
 				Subtitle = Discipline;
-				TitleField.text = "Virtude do Disciplina";
+				TitleField.text = "Virtude da Disciplina";
 				UpdateLevel(14);
 				break;
 			case 8:

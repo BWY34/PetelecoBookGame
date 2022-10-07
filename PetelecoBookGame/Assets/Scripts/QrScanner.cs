@@ -90,7 +90,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 1);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "3":
+			case "5":
 				if (CurrentLevel < 4)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -100,7 +100,7 @@ public class QrScanner : MonoBehaviour
 				InfoTxt.text = "Carregando o level...";
 				SceneManager.LoadScene((int)GameScenes.FIND_SHADOWS);
 				break;
-			case "4":
+			case "6":
 				if (CurrentLevel < 5)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -110,7 +110,7 @@ public class QrScanner : MonoBehaviour
 				InfoTxt.text = "Carregando o level...";
 				SceneManager.LoadScene((int)GameScenes.SEPARATE_TRASH);
 				break;
-			case "5":
+			case "4":
 				if (CurrentLevel < 6)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -120,7 +120,7 @@ public class QrScanner : MonoBehaviour
 				InfoTxt.text = "Carregando o level...";
 				SceneManager.LoadScene((int)GameScenes.MEMORY_GAME);
 				break;
-			case "6":
+			case "8":
 				if (CurrentLevel < 7)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -131,7 +131,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 2);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "7":
+			case "9":
 				if (CurrentLevel < 8)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -142,7 +142,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 3);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "8":
+			case "10":
 				if (CurrentLevel < 9)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -153,7 +153,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 4);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "9":
+			case "11":
 				if (CurrentLevel < 10)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -163,7 +163,7 @@ public class QrScanner : MonoBehaviour
 				InfoTxt.text = "Carregando o level...";
 				SceneManager.LoadScene((int)GameScenes.FIND_OBJECTS);
 				break;
-			case "10":
+			case "12":
 				if (CurrentLevel < 11)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -174,7 +174,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 5);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "11":
+			case "13":
 				if (CurrentLevel < 12)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -185,7 +185,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 6);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "12":
+			case "14":
 				if (CurrentLevel < 13)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -196,7 +196,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 7);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "13":
+			case "15":
 				if (CurrentLevel < 14)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -207,7 +207,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 8);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "14":
+			case "16":
 				if (CurrentLevel < 15)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
@@ -218,7 +218,7 @@ public class QrScanner : MonoBehaviour
 				PlayerPrefs.SetInt(PlayerPrefsKeys.AudioSceneSource, 9);
 				SceneManager.LoadScene((int)GameScenes.AUDIO);
 				break;
-			case "15":
+			case "17":
 				if (CurrentLevel < 16)
 				{
 					InfoTxt.text = "Jogue os levels anteriores para ver esse.";
